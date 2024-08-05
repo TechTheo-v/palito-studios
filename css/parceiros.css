@@ -23,6 +23,15 @@ body {
     text-align: center;
 }
 
+.cabecalho__avatar {
+    background-image: url(../img/cabecalho/logo-seriesp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   padding: 13px 30px 13px 13px;
+}
+
+/* links e fotos */
+
 .parceiros {
     font-size: 15pt;
     color: var(--cinza-texto);
