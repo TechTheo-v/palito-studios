@@ -94,11 +94,11 @@ h2 {
     padding: 13px 30px 13px 13px;
 }
 
-.cabecalho__avatar {
-    background-image: url(../img/cabecalho/logo-canal.png);
+ .cabecalho__avatar {
+    background-image: url(../img/cabecalho/logo-canalp.png);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 13px 30px 13px 13px;
+   padding: 13px 30px 13px 13px;
 }
 
 /* MENU LATERAL */
