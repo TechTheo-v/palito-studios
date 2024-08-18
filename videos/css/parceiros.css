@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+    --azul-escuro: #3b7ac7;
+    --azul-medio: #5784c4;
+    --azul-claro: #bcdcff;
+    --cinza-texto: #444444;
+    --cinza-claro: #ECECEC;
+    box-sizing: border-box;
+    --color-font--:var(--cinza-texto)
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: var(--azul-claro);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cabecalho__avatar {
+    background-image: url(../img/cabecalho/logo-seriesp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   padding: 13px 30px 13px 13px;
+}
+
+/* links e fotos */
+
+.parceiros {
+    font-size: 15pt;
+    color: var(--cinza-texto);
+    position: relative;
+    top: 13%;
+    display: block;
+    justify-content: center;
+    gap: 60px;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 27%;
+}
+
+.parceiros a {
+    color: #000000;
+    background-color: #9c9c9c;
+    width: 70%;
+    position: relative;
+    top: 62px;
+    display: flex;
+    padding: .6%;
+}
+
+.parceiros img {
+    width: 40px;
+    border-radius: 12px;
+    position: relative;
+    top: 100px;
+    left: -28%;
+}
+
+.parceiros img:hover {
+    transform: scale(1.7);
+    transition: 0.6s;
+}
+
+.parceiros a:hover {
+    transform: scale(1.2);
+    background-color: #979797;
+    transition: 0.6s;
+    border: 2px solid yellow;
+}
+
+@media (min-width: 834px) {
+
+    .parceiros a {
+        font-size: 20px;
+        color: #000000;
+        background-color: #9c9c9c;
+        width: 67%;
+        position: relative;
+        top: 32px;
+        left: 6%;
+        display: flex;
+        padding: 1%;
+    }
+    
+    .parceiros img {
+        width: 65px;
+        border-radius: 12px;
+        position: relative;
+        top: 74px;
+        left: -13%;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+
+.parceiros a {
+    font-size: 20px;
+    color: #000000;
+    background-color: #9c9c9c;
+    width: 67%;
+    position: relative;
+    top: 32px;
+    left: 6%;
+    display: flex;
+    padding: .8%;
+}
+
+.parceiros img {
+    width: 63px;
+    height: 20%;
+    border-radius: 12px;
+    position: relative;
+    top: 74px;
+    left: -13%;
+}
+
+}
