@@ -289,3 +289,19 @@ h2 {
 li {
     overflow: visible;
 }
+
+
+/* mini game */
+
+.celo {
+    width: 200px;
+    opacity: 0;
+}
+
+.celo:hover {
+    opacity: 0.4;
+}
+
+.indicador {
+    color: black;
+}

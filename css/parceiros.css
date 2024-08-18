@@ -32,14 +32,15 @@ body {
 
 /* links e fotos */
 
+
 .parceiros {
-    font-size: 15pt;
+    font-size: 13pt;
     color: var(--cinza-texto);
     position: relative;
-    top: 13%;
+    top: 50px;
     display: block;
     justify-content: center;
-    gap: 60px;
+    gap: 0px;
     flex-direction: column;
     text-align: left;
     margin-left: 27%;
@@ -56,7 +57,7 @@ body {
 }
 
 .parceiros img {
-    width: 40px;
+    width: 31px;
     border-radius: 12px;
     position: relative;
     top: 100px;
@@ -123,4 +124,13 @@ body {
     left: -13%;
 }
 
+}
+
+
+/* minigame1 */
+
+.celo{
+    position: relative;
+    left: 40%;
+    width: 70px;
 }
